@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A4FDA685B1631FAA8740C8A /* Pods_ForDemiurgeShambambukli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269448D43A9133772D76CF82 /* Pods_ForDemiurgeShambambukli.framework */; };
 		74A58BF127C9176000B25C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A58BF027C9176000B25C54 /* AppDelegate.swift */; };
 		74A58BF327C9176000B25C54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A58BF227C9176000B25C54 /* SceneDelegate.swift */; };
 		74A58BF527C9176000B25C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A58BF427C9176000B25C54 /* ViewController.swift */; };
-		74A58BF827C9176000B25C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A58BF627C9176000B25C54 /* Main.storyboard */; };
 		74A58BFA27C9176300B25C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A58BF927C9176300B25C54 /* Assets.xcassets */; };
 		74A58BFD27C9176300B25C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A58BFB27C9176300B25C54 /* LaunchScreen.storyboard */; };
+		74A58C0627C936DA00B25C54 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A58C0527C936DA00B25C54 /* TableViewCell.swift */; };
+		74A58C0927C937C100B25C54 /* LifeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A58C0827C937C100B25C54 /* LifeModel.swift */; };
+		74A58C0B27CA2E5E00B25C54 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A58C0A27CA2E5D00B25C54 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		269448D43A9133772D76CF82 /* Pods_ForDemiurgeShambambukli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForDemiurgeShambambukli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7262F8D0191A0A6BF752948E /* Pods-ForDemiurgeShambambukli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForDemiurgeShambambukli.debug.xcconfig"; path = "Target Support Files/Pods-ForDemiurgeShambambukli/Pods-ForDemiurgeShambambukli.debug.xcconfig"; sourceTree = "<group>"; };
 		74A58BED27C9176000B25C54 /* ForDemiurgeShambambukli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForDemiurgeShambambukli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A58BF027C9176000B25C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74A58BF227C9176000B25C54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74A58BF427C9176000B25C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		74A58BF727C9176000B25C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74A58BF927C9176300B25C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74A58BFC27C9176300B25C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74A58BFE27C9176300B25C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A58C0527C936DA00B25C54 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		74A58C0827C937C100B25C54 /* LifeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeModel.swift; sourceTree = "<group>"; };
+		74A58C0A27CA2E5D00B25C54 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		D44D1FEF6D64C6390C695CC8 /* Pods-ForDemiurgeShambambukli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForDemiurgeShambambukli.release.xcconfig"; path = "Target Support Files/Pods-ForDemiurgeShambambukli/Pods-ForDemiurgeShambambukli.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4FDA685B1631FAA8740C8A /* Pods_ForDemiurgeShambambukli.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4966DD3C849C4B8E5876A3D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				269448D43A9133772D76CF82 /* Pods_ForDemiurgeShambambukli.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74A58BE427C9175F00B25C54 = {
 			isa = PBXGroup;
 			children = (
 				74A58BEF27C9176000B25C54 /* ForDemiurgeShambambukli */,
 				74A58BEE27C9176000B25C54 /* Products */,
+				AFA84AEB7271116883801AAC /* Pods */,
+				4966DD3C849C4B8E5876A3D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,50 @@
 		74A58BEF27C9176000B25C54 /* ForDemiurgeShambambukli */ = {
 			isa = PBXGroup;
 			children = (
-				74A58BF027C9176000B25C54 /* AppDelegate.swift */,
-				74A58BF227C9176000B25C54 /* SceneDelegate.swift */,
-				74A58BF427C9176000B25C54 /* ViewController.swift */,
-				74A58BF627C9176000B25C54 /* Main.storyboard */,
+				74A58C0C27CA4CAA00B25C54 /* Model */,
+				74A58C0D27CA4CB700B25C54 /* Views */,
+				74A58C0427C931DA00B25C54 /* Base */,
 				74A58BF927C9176300B25C54 /* Assets.xcassets */,
 				74A58BFB27C9176300B25C54 /* LaunchScreen.storyboard */,
 				74A58BFE27C9176300B25C54 /* Info.plist */,
 			);
 			path = ForDemiurgeShambambukli;
+			sourceTree = "<group>";
+		};
+		74A58C0427C931DA00B25C54 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				74A58BF027C9176000B25C54 /* AppDelegate.swift */,
+				74A58BF227C9176000B25C54 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		74A58C0C27CA4CAA00B25C54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74A58C0827C937C100B25C54 /* LifeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74A58C0D27CA4CB700B25C54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74A58BF427C9176000B25C54 /* ViewController.swift */,
+				74A58C0527C936DA00B25C54 /* TableViewCell.swift */,
+				74A58C0A27CA2E5D00B25C54 /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFA84AEB7271116883801AAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7262F8D0191A0A6BF752948E /* Pods-ForDemiurgeShambambukli.debug.xcconfig */,
+				D44D1FEF6D64C6390C695CC8 /* Pods-ForDemiurgeShambambukli.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74A58C0127C9176300B25C54 /* Build configuration list for PBXNativeTarget "ForDemiurgeShambambukli" */;
 			buildPhases = (
+				C7F8C300698D0E990B5263CC /* [CP] Check Pods Manifest.lock */,
 				74A58BE927C9175F00B25C54 /* Sources */,
 				74A58BEA27C9175F00B25C54 /* Frameworks */,
 				74A58BEB27C9175F00B25C54 /* Resources */,
+				1975C40E67EA62538A24B53D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +183,52 @@
 			files = (
 				74A58BFD27C9176300B25C54 /* LaunchScreen.storyboard in Resources */,
 				74A58BFA27C9176300B25C54 /* Assets.xcassets in Resources */,
-				74A58BF827C9176000B25C54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1975C40E67EA62538A24B53D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForDemiurgeShambambukli/Pods-ForDemiurgeShambambukli-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForDemiurgeShambambukli/Pods-ForDemiurgeShambambukli-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForDemiurgeShambambukli/Pods-ForDemiurgeShambambukli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F8C300698D0E990B5263CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForDemiurgeShambambukli-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74A58BE927C9175F00B25C54 /* Sources */ = {
@@ -139,6 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74A58BF527C9176000B25C54 /* ViewController.swift in Sources */,
+				74A58C0627C936DA00B25C54 /* TableViewCell.swift in Sources */,
+				74A58C0B27CA2E5E00B25C54 /* GradientView.swift in Sources */,
+				74A58C0927C937C100B25C54 /* LifeModel.swift in Sources */,
 				74A58BF127C9176000B25C54 /* AppDelegate.swift in Sources */,
 				74A58BF327C9176000B25C54 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +247,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		74A58BF627C9176000B25C54 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74A58BF727C9176000B25C54 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74A58BFB27C9176300B25C54 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +376,7 @@
 		};
 		74A58C0227C9176300B25C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7262F8D0191A0A6BF752948E /* Pods-ForDemiurgeShambambukli.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +387,6 @@
 				INFOPLIST_FILE = ForDemiurgeShambambukli/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +398,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		74A58C0327C9176300B25C54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44D1FEF6D64C6390C695CC8 /* Pods-ForDemiurgeShambambukli.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +415,6 @@
 				INFOPLIST_FILE = ForDemiurgeShambambukli/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +426,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
